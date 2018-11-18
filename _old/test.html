@@ -1,0 +1,36 @@
+<html>
+  <head>
+    <style>
+      text {
+        stroke: blue !important;
+        stroke-width: 3px;
+        fill: skyblue;
+        font-family: serif;
+        font-size: 400%;
+        font-weight: bold;
+      }
+      svg {
+        height: 100px;
+        width: 400px;
+      }
+      h1 {
+        font-size: 400%;
+        font-family: sans-serif;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Titulo</h1>
+    <svg>
+      <text x=0 y=80>Hola mundo!</text>
+    </svg>
+    <script>
+      var txt = document.createElementNS("http://www.w3.org/2000/svg","text");
+      txt.textContent = "via js";
+      txt.setAttribute('y','50px');
+      var svg = document.createElementNS("http://www.w3.org/2000/svg","svg");
+      svg.append(txt);
+      document.body.append(svg);
+    </script>
+  </body>
+</html>
