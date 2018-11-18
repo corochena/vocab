@@ -1261,6 +1261,60 @@ var db = {
                     desc: "ventana"
                 }
             ]
+        },
+        {
+          name: "pacha",
+          instances: [
+            {
+              img: "pacha1.jpg",
+              desc: "la pachita tiene leche"
+            },
+            {
+              img: "pacha2.jpg",
+              desc: "pachita con leche"
+            },
+            {
+              img: "pacha3.png",
+              desc: "muchas pachas"
+            },
+            {
+              img: "pacha4.jpg",
+              desc: "tres pachas"
+            },
+            {
+              img: "pacha5.jpg",
+              desc: "cuatro pachas"
+            },
+            {
+              img: "pacha6.jpg",
+              desc: "el bebé bebe de su pacha"
+            },
+            {
+              img: "pacha7.jpg",
+              desc: "dos bebés beben pachas"
+            }
+          ]
+        },
+        {
+          name: "espejo",
+          instances: [
+            {
+              img: "mirror1.jpg",
+              desc: "espejo redondo"
+            },
+            {
+              img: "mirror2.jpg",
+              desc: "espejo de cuerpo entero"
+            },
+            {
+              img: "mirror3.jpg",
+              desc: "la niña se ve en el espejo"
+            },
+            {
+              img: "mirror4.jpg",
+              desc: "espejo"
+            }
+          ]
         }
       ]
     },
@@ -1688,35 +1742,75 @@ var db = {
             },
             {
               img: "flower3.jpg",
-              desc: "flores rojas"
+              desc: "tulipanes"
+            },
+            {
+              img: "flower4.jpg",
+              desc: "un ramo de flores de colores"
+            },
+            {
+              img: "flower5.jpg",
+              desc: "tres rosas rosadas"
+            },
+            {
+              img: "flower6.jpg",
+              desc: "muchas rosas blancas"
+            },
+            {
+              img: "flower7.jpg",
+              desc: "lindos tulipanes"
+            },
+            {
+              img: "flower8.jpg",
+              desc: "un jardín de tulipanes"
             }
           ]
         },
         {
           name: "playa",
           instances: [
-                {
-                    img: "beach1.jpg",
-                    desc: "playa"
-                },
-                {
-                    img: "beach2.jpg",
-                    desc: "playa"
-                }
-            ]
+            {
+              img: "beach1.jpg",
+              desc: "hermosa playa de arena blanca"
+            },
+            {
+              img: "beach2.jpg",
+              desc: "la playa está desierta"
+            },
+            {
+              img: "beach3.jpg",
+              desc: "la mujer camina en la playa"
+            },
+            {
+              img: "beach4.jpg",
+              desc: "la mujer camina en la playa"
+            }
+          ]
         },
         {
           name: "bosque",
           instances: [
-                {
-                    img: "forest1.jpg",
-                    desc: "bosque"
-                },
-                {
-                    img: "forest2.jpg",
-                    desc: "bosque"
-                }
-            ]
+            {
+              img: "forest1.jpg",
+              desc: "bosque"
+            },
+            {
+              img: "forest2.jpg",
+              desc: "bosque"
+            },
+            {
+              img: "forest3.jpg",
+              desc: "bosque"
+            },
+            {
+              img: "forest4.jpg",
+              desc: "bosque gris"
+            },
+            {
+              img: "forest5.jpg",
+              desc: "bosque"
+            }
+          ]
         },
         {
           name: "montaña",
@@ -1732,17 +1826,54 @@ var db = {
           ]
         },
         {
+          name: "árbol",
+          instances: [
+            {
+              img: "tree1.jpg",
+              desc: "hermoso árbol frondoso"
+            },
+            {
+              img: "tree2.jpg",
+              desc: "hermoso árbol frondoso"
+            },
+            {
+              img: "tree3.jpg",
+              desc: "un árbol solitario"
+            },
+            {
+              img: "tree4.jpg",
+              desc: "enorme árbol"
+            },
+            {
+              img: "tree5.jpg",
+              desc: "extraño árbol"
+            }
+          ]
+        },
+        {
           name: "lluvia",
           instances: [
-              {
-                img: "rain1.jpg",
-                desc: "lluvia"
-              },
-              {
-                img: "rain2.jpg",
-                desc: "la gente se moja bajo la lluvia"
-              }
-            ]
+            {
+              img: "rain1.jpg",
+              desc: "lluvia"
+            },
+            {
+              img: "rain2.jpg",
+              desc: "la gente se moja bajo la lluvia"
+            },
+            {
+              img: "rain3.jpg",
+              desc: "niños jugando en la lluvia"
+            },
+            {
+              img: "rain4.jpg",
+              desc: "la gente usa paraguas bajo la lluvia"
+            },
+            {
+              img: "rain5.jpg",
+              desc: "dos niños corren bajo la lluvia"
+            }
+          ]
         },
         {
           name: "relámpago",
@@ -1754,8 +1885,21 @@ var db = {
             {
               img: "thunder2.jpg",
               desc: "relámpago"
+            },
+            {
+              img: "thunder3.jpg",
+              desc: "el cielo está lleno de relámpagos"
+            },
+            {
+              img: "thunder4.jpg",
+              desc: "tres relámpagos"
+            },
+            {
+              img: "thunder5.jpg",
+              desc: "relámpago azul"
             }
-          ]
+          ],
+          sonidos: ["thunder.wav"]
         },
         {
           name: "sol",
@@ -1782,7 +1926,7 @@ var db = {
           name: "luna",
           instances: [
             {
-              img: "moon1.jpg",
+              img: "moon1.png",
               desc: "luna llena"
             },
             {
@@ -1814,8 +1958,77 @@ var db = {
               img: "fire5.jpg",
               desc: "las brasas son muy calientes"
             },
+            {
+              img: "fire6.png",
+              desc: "papel quemándose"
+            },
+          ],
+          sonidos: ["fire.wav"]
+        },
+         {
+          name: "arcoiris",
+          instances: [
+            {
+              img: "rainbow1.jpeg",
+              desc: "un arcoiris doble"
+            },
+            {
+              img: "rainbow2.jpg",
+              desc: "arco iris doble"
+            },
+            {
+              img: "rainbow3.jpg",
+              desc: "un lindo arco iris"
+            }
           ]
         },
+        {
+          name: "nube",
+          instances: [
+            {
+              img: "nube1.jpg",
+              desc: "nubes"
+            },
+            {
+              img: "nube2.jpg",
+              desc: "nubes"
+            },
+            {
+              img: "nube3.jpeg",
+              desc: "nubes"
+            }
+          ]
+        },
+        {
+          name: "mar",
+          instances: [
+            {
+              img: "mar1.jpg",
+              desc: "una gran ola en el mar"
+            },
+            {
+              img: "mar2.jpg",
+              desc: "la gente surfea en el mar"
+            },
+            {
+              img: "mar3.png",
+              desc: "dos mujeres en el mar"
+            },
+            {
+              img: "mar4.jpg",
+              desc: "dos niños corriendo en el mar"
+            },
+            {
+              img: "mar5.jpg",
+              desc: "la niña señala al mar"
+            },
+            {
+              img: "mar6.png",
+              desc: "tres niñas juegan en el mar"
+            }
+          ],
+          sonidos: ["mar.wav"]
+        }
       ]
     },
     {
@@ -2018,6 +2231,47 @@ var db = {
             {
               img: "falda4.jpg",
               desc: "falda azul"
+            }
+          ]
+        },
+        {
+          name: "sombrero",
+          instances: [
+            {
+              img: "hat1.jpg",
+              desc: "sombrero azul"
+            },
+            {
+              img: "hat2.jpg",
+              desc: "sombrero de micky"
+            },
+            {
+              img: "hat3.jpg",
+              desc: "sombrero de marinero"
+            },
+            {
+              img: "hat4.jpeg",
+              desc: "gorrita de micky"
+            },
+            {
+              img: "hat5.jpg",
+              desc: "sombrero verde"
+            },
+            {
+              img: "hat6.jpg",
+              desc: "la mujer usa sombrero"
+            },
+            {
+              img: "hat7.jpg",
+              desc: "la niña usa sombrero"
+            },
+            {
+              img: "hat8.jpg",
+              desc: "la bebé usa un sombrerito con orejas"
+            },
+            {
+              img: "hat9.jpg",
+              desc: "el bebé usa un sombrerito de conejo"
             }
           ]
         }
