@@ -708,7 +708,7 @@ var db = {
                   desc: "la oveja nos esta viendo"
               },
               {
-                  img: "sheep2.jpg",
+                  img: "sheep2.JPG",
                   desc: "oveja con su corderito"
               },
               {
