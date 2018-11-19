@@ -117,7 +117,7 @@ var db = {
           name: "camello",
           instances: [
                 {
-                    img: "camel1.jpg",
+                    img: "camel1.JPG",
                     desc: "camello"
                 },
                 {
