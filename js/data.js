@@ -1581,7 +1581,7 @@ var db = {
               desc: "camión pipa"
             },
             {
-              img: "camion5.jpg",
+              img: "camion5.JPG",
               desc: "camión pipa"
             }
           ]
