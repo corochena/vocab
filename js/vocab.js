@@ -47,7 +47,7 @@ function createMenu() {
     // crea un elemento div
     var divCircle = document.createElement("div");
 
-    var strStyle = "background-image: url(/vocab_img/" + imgName(categ) + ")";
+    var strStyle = "background-image: url(vocab_img/" + imgName(categ) + ")";
 
     // le agrega una clase .panel, un fondo de imagen, un texto y un id
     divCircle.classList.add("panel");
@@ -115,7 +115,7 @@ function createSlider() {
     
     speak(array[j].desc);
     
-    slider.querySelector("img").setAttribute("src", "/vocab_img/" + array[j].img);
+    slider.querySelector("img").setAttribute("src", "vocab_img/" + array[j].img);
 
     document.querySelector("#h1Name").textContent = currData[index].name;
 
@@ -127,7 +127,7 @@ function createSlider() {
       var sonidos = currData[index].sonidos;
       if (sonidos) {
         var rnd = Math.floor(Math.random() * sonidos.length);
-        sound = new Audio('/vocab_img/' + sonidos[rnd]);
+        sound = new Audio('vocab_img/' + sonidos[rnd]);
         sound.play();
       } 
       index++;
