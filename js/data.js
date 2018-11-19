@@ -1687,7 +1687,7 @@ var db = {
                     desc: "los mangos son amarillos"
                 },
                 {
-                    img: "volquete1.jpg",
+                    img: "camion0.jpg",
                     desc: "el camión es amarillo"
                 }
             ]
