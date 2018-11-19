@@ -1,5 +1,4 @@
 var categ, sound;
-speak("Vocabulario");
 
 document.addEventListener('DOMContentLoaded', function() {
   //no se cuando se debe usar DOMContentLoaded o si es util para este programa
@@ -92,13 +91,21 @@ function speak(word) {
 }
 
 function createSlider() {
+  var w = document.documentElement;
+  if (w.requestFullscreen)
+    w.requestFullscreen();
+  else if (w.webkitRequestFullscreen)
+    w.webkitRequestFullscreen();
+  else if (w.mozRequestFullscreen)
+    w.mozRequestFullscreen();
+  
   var slider = document.querySelector("#slider");
   var currData = db.categories.filter(inst => {
     return inst.name == categ;
   })[0].instances;
 
   var index = 0;
-
+   
   slider.addEventListener('click', function nextImg() {
     if (sound) sound.pause();
 
